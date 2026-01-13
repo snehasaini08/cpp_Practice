@@ -19,7 +19,6 @@ int main()
    //3
    int a,b;
    cin>>a>>b;
-   cout<<"Value"
-
+   cout<<"Value of a and b : "<<a<<" "<<b<<endl;
 
 }
