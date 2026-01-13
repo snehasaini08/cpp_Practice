@@ -11,6 +11,5 @@ int main()
         sum=sum+i;
         i=i+1;
     }
-    cout<<"Value of sum is: "<<sum<<endl;
-    
+    cout<<"Value of sum is: "<<sum<<endl;   
 }
