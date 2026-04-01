@@ -8,11 +8,11 @@ int main()
     while(i<=n){
         int j=1,space=1;
         while(space<i){
-            cout<<" ";
+            cout<< " ";
             space=space+i;
         }
         while(j<=n-i+1){
-            cout<<"*";
+            cout<< " *";
             j=j+1;
         }
         i=i+1;
