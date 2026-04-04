@@ -6,21 +6,43 @@
 5 6 7 8 9
 */
 
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     int row=1;
+//     while(row<=n)
+//     {
+//         int col=1;
+//         int value=row;
+//         while(col<=row)
+//         {
+//             cout<<value<<" ";
+//             value++;
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
 #include<iostream>
 using namespace std;
 int main()
 {
     int n;
     cin>>n;
-    int i=1,row=1;
+    int row=1;
     while(row<=n)
     {
         int col=1;
-        int value=row;
+        // int value=row;
         while(col<=row)
         {
-            cout<<value<<" ";
-            value++;
+            cout<<row+col-1<<" ";
+            //value++;
             col++;
         }
         cout<<endl;

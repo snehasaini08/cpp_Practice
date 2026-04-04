@@ -23,4 +23,22 @@ int main()
         cout<<endl;
         i++;
     }
-}
+// // }
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,row=1,col=1;
+//     cin>>n;
+//     while(row<=n)
+//     {
+//         while(col>=1)
+//         {
+//             cout<<col;
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }

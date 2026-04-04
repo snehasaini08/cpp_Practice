@@ -7,7 +7,7 @@
 #include<iostream>
 
 using namespace std;
-/*int main()
+int main()
 {
     int i=1,n;
     cin>>n;
@@ -22,25 +22,45 @@ using namespace std;
         cout<<endl;
         i=i+1;
     }
-}*/
+}
 
 //sir vai method
 
-int main()
-{
-int n;
-cin>>n;
-int i=1;
-while(i<=n)
-{
-    int j=1;
-    while(j<=i)
-    {
-        cout<<i-j+1<<" ";
-        j=j+1;
-    }
-    cout<<endl;
-    i=i+1;
-}
+// int main()
+// {
+// int n;
+// cin>>n;
+// int i=1;
+// while(i<=n)
+// {
+//     int j=1;
+//     while(j<=i)
+//     {
+//         cout<<i-j+1<<" ";
+//         j=j+1;
+//     }
+//     cout<<endl;
+//     i=i+1;
+// }
 
-}
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int i=1,n;
+//     cin>>n;
+
+//     while(i<=n){
+//         int j=1,cnt=i;
+//         while(j<=i)
+//         {
+//             cout<<cnt;
+//             cnt--;
+//             j++;
+//         }
+//         cout<<endl;
+//         i++;
+//     }
+// }
