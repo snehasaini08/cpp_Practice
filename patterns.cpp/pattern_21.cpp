@@ -14,7 +14,7 @@ int main()
     int i=1;
     while(i<=n){
         int j=1,space=1;
-        while(space<i){
+        while(space<=i-1){ //or condition can be space <i
             cout<<" ";
             space=space+1;
         }

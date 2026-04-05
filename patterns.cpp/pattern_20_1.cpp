@@ -12,11 +12,6 @@ int main()
     cin>>n;
     int i=1;
     while(i<=n){
-        int space=1;
-        while(space<=n-1){
-            cout<<" ";
-            space=space+1;
-        }
         int j=1;
         while(j<=i){
             cout<< "*";
@@ -25,5 +20,6 @@ int main()
         i=i+1;
         cout<<endl;
     }
+    
     return 0;
 }
