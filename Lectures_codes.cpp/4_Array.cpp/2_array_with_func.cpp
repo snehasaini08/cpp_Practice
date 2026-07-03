@@ -20,7 +20,7 @@ int main()
     int n = 15;
     printarray(third,15);
     int thirdsize = sizeof(third)/sizeof(int);
-    cout << "Size of third is " << fifthsize << endl;
+    cout << "Size of third is " << thirdsize << endl;
 
 
     int fourth[10]= {0};
