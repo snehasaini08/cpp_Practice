@@ -19,6 +19,8 @@ int main()
 
     cout<<"The maximum value in the array is : "<< getmax(arr,size) <<endl;
     cout<<"The minimum value in the array is : "<< getmin(arr,size) <<endl;
+
+    return 0;
 }
 
 int getmax(int arr[],int n)
