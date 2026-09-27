@@ -16,13 +16,32 @@ int main(){
     p.second = "brazil";
     table.insert(p);
 
-    unordered_map<string,string>::iterator it = table.begin();
+    cout<< table.size() << endl;
 
-    while(it != table.end()){
-        pair<string,string> p = *it;
-        cout << p.first << " " << p.second << endl;
-        it++;
+    if(table.count("im")==0){
+        cout << "Key not found" << endl;
     }
+    if(table.count("im") == 1){
+        cout << " Key found" << endl;
+    }
+
+    // if (table.find("im") != table.end() ){
+    //     cout << "Key found" << endl;
+    // } 
+    // else {
+    //     cout << "Key not found" << endl;
+    // }
+
+    // table.erase(table.begin(),table.end());
+    // cout << table.size() << endl;
+
+    // unordered_map<string,string>::iterator it = table.begin();
+
+    // while(it != table.end()){
+    //     pair<string,string> p = *it;
+    //     cout << p.first << " " << p.second << endl;
+    //     it++;
+    // }
 
 //     cout << table.at("in") << endl;
 //    // table.at("in") = "india2" ; //can be used to modify the table 
