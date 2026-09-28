@@ -1,2 +1,2 @@
- // auto it = min_element(arr.begin(),arr.end());
-    // cout << *it << endl;
+auto it = upper_bound(arr.begin(),arr.end(),30);
+    // cout<< *it << endl;

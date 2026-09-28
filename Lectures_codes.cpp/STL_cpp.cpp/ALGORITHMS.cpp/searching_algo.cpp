@@ -12,10 +12,14 @@ int main(){
     arr.push_back(40);
     arr.push_back(50);
 
+    //equal range 
+
+   
+
     //upper bound
 
-    auto it = upper_bound(arr.begin(),arr.end(),30);
-    cout<< *it << endl;
+    // auto it = upper_bound(arr.begin(),arr.end(),30);
+    // cout<< *it << endl;
 
 
 
