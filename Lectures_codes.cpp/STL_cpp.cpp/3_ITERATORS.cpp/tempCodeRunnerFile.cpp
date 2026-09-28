@@ -1,11 +1,10 @@
-list<int>:: iterator it = myList.begin();
+ // vector<int>::iterator it=arr.begin();
 
-    while(it != myList.end()){
-        //writing
-        (*it) = (*it) + 2;
-
-        //read
-        cout<<(*it) << " ";
-        //forward move
-        it++;
-    }
+    // while(it != arr.end()){
+    //     //write
+    //     *it=*it+7;
+    //     //read
+    //     cout<< *it << " ";
+    //     //forward move
+    //     it++;
+    // }
