@@ -16,22 +16,22 @@ int main(){
     second.push_back(5);
     second.push_back(6);
 
-    vector<int> result;
+    // vector<int> result;
 
-    set_symmetric_difference(first.begin(),first.end(),second.begin(),second.end(),inserter(result,result.begin()));
-    for(int a: result){
-          cout << a<< " ";
-      }
+    // set_symmetric_difference(first.begin(),first.end(),second.begin(),second.end(),inserter(result,result.begin()));
+    // for(int a: result){
+    //       cout << a<< " ";
+    //   }
 
 
 
     //set difference
 
-    // vector<int> result;
-    // set_difference(first.begin(),first.end(),second.begin(),second.end(),inserter(result,result.begin()));
-    // for(int a: result){
-    //      cout << a<< " ";
-    //   }
+    vector<int> result;
+    set_difference(first.begin(),first.end(),second.begin(),second.end(),inserter(result,result.begin()));
+    for(int a: result){
+         cout << a<< " ";
+      }
 
     
     //set intersection
