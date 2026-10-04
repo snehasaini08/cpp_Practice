@@ -8,15 +8,18 @@ int secondMax(int arr[],int size){
         if(arr[i]>max){
             max=arr[i];
         }
-    }
-    for(int i=0;i<size;i++){
-        if((second_max < max) && (second_max > arr[i])){
+        if((arr[i] < max) && (second_max < arr[i])){
             second_max = arr[i];
         }
-
     }
-    return second_max ;
+    // for(int i=0;i<size;i++){
+    //     if((arr[i] < max) && (second_max < arr[i])){
+    //         second_max = arr[i];
+    //     }
 
+    // }
+    return second_max ;
+  
 }
 
 void printArray(int arr[],int size){
