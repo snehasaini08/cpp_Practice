@@ -1,8 +1,22 @@
 #include<iostream>
 using namespace std;
 
-int secondMax(int arr,size){
-    
+int secondMax(int arr[],int size){
+    int max=arr[0];
+    int second_max=arr[0];
+    for(int i=0;i<size;i++){
+        if(arr[i]>max){
+            max=arr[i];
+        }
+    }
+    for(int i=0;i<size;i++){
+        if((second_max < max) && (second_max > arr[i])){
+            second_max = arr[i];
+        }
+
+    }
+    return second_max ;
+
 }
 
 void printArray(int arr[],int size){
@@ -30,6 +44,9 @@ int main(){
 
     inputArray(arr,n);
     printArray(arr,n);
+
+    int second_max = secondMax(arr,n);
+    cout << "Second max is : " << second_max << endl;
 
     return 0;
 }

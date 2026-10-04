@@ -26,7 +26,7 @@ int main()
     cout<<"Enter array elements: "<<endl;
 
     arrayinput(arr,size);
-    int sum=arraysum(arr,size);
+    int sum = arraysum(arr,size);
     cout << "Sum is : "<<sum<<endl;
     return 0;
 
